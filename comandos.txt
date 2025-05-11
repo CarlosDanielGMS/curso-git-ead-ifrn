@@ -22,3 +22,18 @@ git add texto.txt
 git commit -m "Arquivo de texto corrigido"
 git branch add-comandos
 git switch add-comandos
+[Arquivo de texto criado pelo Explorador de Arquivos usando o Bloco de Notas do Windows]
+git add comandos.txt
+git commit -m "Arquivo de texto criado"
+git config user.name "Carlos Daniel"
+git config user.email "carlosdaniel.pessoal@gmail.com"
+git remote add origin-atividade https://github.com/CarlosDanielGMS/curso-git-ead-ifrn.git
+git push -u origin-atividade
+git switch main
+git push -u origin-atividade
+[Pull Request criado pelo GitHub]
+git pull origin-atividade
+[Arquivo de texto atualizado pelo Explorador de Arquivos usando o Bloco de Notas do Windows]
+git add comandos.txt
+git commit -m "Arquivo de texto atualizado"
+git push -u origin-atividade

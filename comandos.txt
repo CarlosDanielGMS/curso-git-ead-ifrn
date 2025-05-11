@@ -1,0 +1,24 @@
+Nome:
+Carlos Daniel Galvão de Macedo Silva
+
+Comandos:
+[Diretório criado pelo Explorador de Arquivos do Windows]
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+[Arquivo de texto criado pelo Explorador de Arquivos usando o Bloco de Notas do Windows]
+git add texto.txt
+git commit -m "Arquivo de texto criado"
+git branch feature-1
+git switch feature-1
+[Arquivo de texto alterado pelo Explorador de Arquivos usando o Bloco de Notas do Windows]
+git add texto.txt
+git commit -m "Arquivo de texto alterado"
+git switch main
+[Arquivo de texto modificado pelo Explorador de Arquivos usando o Bloco de Notas do Windows]
+git add texto.txt
+git commit -m "Arquivo de texto modificado"
+git merge feature-1
+[Conflito do arquivo de texto resolvido pelo Explorador de Arquivos usando o Bloco de Notas do Windows]
+git add texto.txt
+git commit -m "Arquivo de texto corrigido"
+git branch add-comandos
+git switch add-comandos
